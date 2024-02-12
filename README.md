@@ -28,4 +28,3 @@ We're always looking to improve RetroGaming Haven! If you have any feedback, sug
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-   
