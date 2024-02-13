@@ -1,0 +1,19 @@
+{
+  "name": "s51_old_is_gold_games",
+  "version": "1.0.0",
+  "description": "Welcome to RetroGaming Haven, a nostalgic journey through gaming's golden era! 🎮",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mangodb": "^1.0.0",
+    "mongodb": "^6.3.0",
+    "node": "^21.6.1",
+    "react": "^18.2.0"
+  }
+}
