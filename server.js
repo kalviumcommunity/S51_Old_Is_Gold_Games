@@ -1,4 +1,5 @@
 const Express = require("express")
+require("dotenv").config()
 
 const app = Express()
 
@@ -6,7 +7,12 @@ app.get("/ping" , (req,res)=>{
     res.send("pong")
 })
 
-app.listen(3000,()=>{
-    console.log("listening.....")
+app.get("/" , (req,res)=>{
+    res.send("welcome")
 })
 
+app.listen(process.env.APP_PORT,()=>{
+    console.log("Server started")
+})
+
+ 
