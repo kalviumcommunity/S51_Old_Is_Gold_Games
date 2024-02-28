@@ -15,7 +15,7 @@ RetroGaming Haven is a curated collection of timeless classics, carefully select
 
 ## Getting Started
 
-To explore our collection, simply visit our website at [https://retrogames2024.onrender.com](https://retrogames2024.onrender.com). From there, you can browse through our curated list, read brief descriptions, and embark on your nostalgic gaming journey.
+To explore our collection, simply visit our website at [https://65ded6029069d8aa0709c08c--meek-clafoutis-a311f7.netlify.app/](RetroGames). From there, you can browse through our curated list, read brief descriptions, and embark on your nostalgic gaming journey.
 
 ## Feedback
 
