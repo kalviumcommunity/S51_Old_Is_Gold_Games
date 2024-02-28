@@ -1,6 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
+import DataList from './DataList'
 
 function Home() {
+  const [visible , setVisible] = useState(false)
+
+  const toDisplay = () =>{
+    setVisible(prev => !prev)
+  }
   return (
     <>
         <header><h1>Welcome to RetroGaming</h1></header>
@@ -20,8 +26,14 @@ function Home() {
                     </ul>
                 </section>
 
-                
+                <button onClick={()=>{toDisplay()}}>{visible ? "Hide" : "Display"}</button>
         </div>
+
+        <div id='game_list'>
+            {visible && <DataList></DataList>}
+        </div>
+
+
 
   <footer>
     <p>&copy; 2024 RetroGaming Haven. All rights reserved.</p>
