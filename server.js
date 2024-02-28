@@ -6,8 +6,11 @@ const Games_List = require('./GameSchema')
 require("dotenv").config();
 
 const app = Express();
+const cors = require('cors')
 
 app.use(Express.json());
+app.use(cors())
+
 
 // Create operation
 app.post("/api/data", async (req, res) => {
