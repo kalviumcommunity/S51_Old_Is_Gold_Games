@@ -1,0 +1,27 @@
+meta {
+  name: Post Games
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:3000/api/data
+  body: json
+  auth: none
+}
+
+body:json {
+  [
+      {
+          "id": "1",
+          "name": "Object 1",
+          "description": "This is the first object."
+      },
+      {
+          "id": "2",
+          "name": "Object 2",
+          "description": "This is the second object."
+      }
+  ]
+  
+}
