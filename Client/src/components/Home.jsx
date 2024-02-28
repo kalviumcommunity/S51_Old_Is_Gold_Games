@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import DataList from './DataList'
 
-function Home() {
+function Home({data}) {
   const [visible , setVisible] = useState(false)
 
   const toDisplay = () =>{
@@ -30,7 +30,7 @@ function Home() {
         </div>
 
         <div id='game_list'>
-            {visible && <DataList></DataList>}
+            {visible && <DataList data = {data}></DataList>}
         </div>
 
 

@@ -1,11 +1,11 @@
 import React from 'react'
-import dummyData from "../../dummyData.json"
+// import dummyData from "../../dummyData.json"
 
-function DataList() {
+function DataList({data}) {
   return (
     <>
         {
-            dummyData.map((game, index) =>{
+            data.map((game, index) =>{
                 return (
                     <>
                     <div className='game' key={index}>
