@@ -5,6 +5,8 @@ const { startDatabase, stopDatabase, isConnected } = require('./db');
 const Games_List = require('./GameSchema')
 require("dotenv").config();
 
+const mongoose = require('mongoose');
+
 const app = Express();
 const cors = require('cors')
 
@@ -13,21 +15,24 @@ app.use(cors())
 
 
 // Create operation
+const ObjectId = mongoose.Types.ObjectId;
+
 app.post("/api/data", async (req, res) => {
     try {
-        const newItem = await Games_List.create(req.body); 
+        const { _id, ...rest } = req.body;
+        const newItem = await Games_List.create({ _id: new ObjectId(), ...rest }); 
         res.json(newItem);
     } catch (err) {
         res.status(500).json({ message: err.message });
     }
 });
 
+
 // Read operation
 app.get("/api/data", async (req, res) => {
     try {
         const data = await Games_List.find(); 
         res.json(data);
-        console.log(data)
 
     } catch (err) {
         res.status(500).json({ message: err.message });
