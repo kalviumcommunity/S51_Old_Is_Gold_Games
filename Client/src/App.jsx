@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from 'react';
+import {BrowserRouter ,Route,Routes } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home';
-
+import GameForm from './components/GameForm';
 function App() {
-
+  // const navigate = useNavigate()
   const [data, setData] = useState(null);
 
   useEffect(() => {
@@ -24,7 +25,12 @@ function App() {
 
   return (
     <>
-      <Home data = {data}></Home>
+      <BrowserRouter>
+        <Routes>
+        <Route path='/' element={<Home data={data} setData={setData} />} />
+        <Route path='/form' element={<GameForm  data={data} setData={setData}/>} />
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }

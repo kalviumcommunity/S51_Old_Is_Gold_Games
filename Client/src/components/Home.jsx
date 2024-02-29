@@ -1,8 +1,10 @@
 import React, { useState } from 'react'
 import DataList from './DataList'
+import { useNavigate } from 'react-router-dom'
 
 function Home({data}) {
   const [visible , setVisible] = useState(false)
+  const navigate = useNavigate()
 
   const toDisplay = () =>{
     setVisible(prev => !prev)
@@ -27,6 +29,7 @@ function Home({data}) {
                 </section>
 
                 <button onClick={()=>{toDisplay()}}>{visible ? "Hide" : "Display"}</button>
+                <button onClick={()=>{navigate("/form")}}>Add Games</button>
         </div>
 
         <div id='game_list'>
