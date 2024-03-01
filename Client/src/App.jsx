@@ -23,12 +23,14 @@ function App() {
     fetchData();
   }, [])
 
+  console.log(data)
   return (
     <>
       <BrowserRouter>
         <Routes>
         <Route path='/' element={<Home data={data} setData={setData} />} />
-        <Route path='/form' element={<GameForm  data={data} setData={setData}/>} />
+        <Route path="/form" element={<GameForm  data={data} setData={setData}/>} />
+        <Route path="/form/:id" element={<GameForm  data={data} setData={setData}/>} />
         </Routes>
       </BrowserRouter>
     </>

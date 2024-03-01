@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import DataList from './DataList'
 import { useNavigate } from 'react-router-dom'
 
-function Home({data}) {
+function Home({data , setData}) {
   const [visible , setVisible] = useState(false)
   const navigate = useNavigate()
 
@@ -33,7 +33,7 @@ function Home({data}) {
         </div>
 
         <div id='game_list'>
-            {visible && <DataList data = {data}></DataList>}
+            {visible && <DataList data = {data} setData={setData}></DataList>}
         </div>
 
 
