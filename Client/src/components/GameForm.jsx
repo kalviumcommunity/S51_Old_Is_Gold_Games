@@ -1,13 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useNavigate, useParams } from 'react-router-dom';
+import { validateGame } from '../../../dataValidator';
+
+
 
 
 const GameForm = ({data , setData}) => {
     const {id} = useParams()
     const navigate = useNavigate()
     const [choose , setChoose] = useState(false)
-    
+    const [isError , setIsError] = useState(false)
   const [formData, setFormData] = useState({
     GameTitle: '',
     ReleaseYear: '',
@@ -38,23 +41,29 @@ const GameForm = ({data , setData}) => {
 
   const handleSubmitPost = async e => {
     e.preventDefault();
-
+  
     try {
-      const res = await axios.post('http://localhost:3000/api/data', formData);
+      // Validate form data
+      const validatedData = validateGame(formData);
+
+      const res = await axios.post('http://localhost:3000/api/data', validatedData);
       console.log(res.data);
-      setData([...data , res.data])
+      setData([...data, res.data]);
+      navigate("/");
     } catch (error) {
       console.error('Error:', error);
+      setIsError(true)
     }
-    navigate("/")
-
   };
+  
 
   const handleSubmitPut = async e => {
     e.preventDefault();
 
     try {
-      const res = await axios.put(`http://localhost:3000/api/data/${id}`, formData);
+      const validatedData = validateGame(formData);
+
+      const res = await axios.put(`http://localhost:3000/api/data/${id}`, validatedData);
       console.log(res.data);
       setData(
         data.map(obj => {
@@ -67,6 +76,7 @@ const GameForm = ({data , setData}) => {
       )
     } catch (error) {
       console.error('Error:', error);
+      setIsError(true)
     }
     navigate("/")
 
@@ -84,6 +94,7 @@ const GameForm = ({data , setData}) => {
       <textarea name="Description" value={formData.Description} onChange={handleChange} placeholder="Description" required />
       <input type="number" name="Rating" value={formData.Rating} onChange={handleChange} placeholder="Rating" required />
       <button type="submit">Submit</button>
+      <p>{isError ? "invalid inputs" : ""}</p>
     </form>
     </div>
   );
