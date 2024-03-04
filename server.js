@@ -5,6 +5,9 @@ const { startDatabase, stopDatabase, isConnected } = require('./db');
 const Games_List = require('./GameSchema')
 require("dotenv").config();
 
+const cookieParser = require('cookie-parser');
+
+
 const mongoose = require('mongoose');
 
 const app = Express();
@@ -12,7 +15,10 @@ const cors = require('cors')
 
 app.use(Express.json());
 app.use(cors())
+app.use(cookieParser());
 
+
+// DataBase CRUD operation endpoints --------------------------------------------------------------------------------------------------------------
 
 // Create operation
 const ObjectId = mongoose.Types.ObjectId;
@@ -65,6 +71,14 @@ app.delete("/api/data/:id", async (req, res) => {
     }
 });
 
+//-------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+// simple end points ---------------------------------------------------------------------------------------------------------------------------------
 app.get("/ping", (req, res) => {
     res.send("pong");
 });
@@ -72,6 +86,36 @@ app.get("/ping", (req, res) => {
 app.get("/", (req, res) => {
     res.send(`Welcome and DB is ${isConnected() ? 'connected' : 'disconnected'}`);
 });
+
+
+// -----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+// Authentication Endpoints -------------------------------------------------------------------------------------------------------------------------
+
+// Login endpoint
+app.post('/login', (req, res) => {
+    const { username } = req.body;
+    res.cookie('username', username);
+    res.send('Login successful');
+});
+
+// Logout endpoint
+app.get('/logout', (req, res) => {
+    res.clearCookie('username');
+    res.send('Logout successful');
+});
+
+//---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+// server starting ---------------------------------------------------------------------------------------------------------------------------------
 
 app.listen(process.env.APP_PORT, async () => {
     try {
