@@ -109,6 +109,16 @@ app.get('/logout', (req, res) => {
     res.send('Logout successful');
 });
 
+// auth endpoint
+app.post('/auth', (req, res) => {
+    const { username, password } = req.body;
+    // Generate JWT token
+    const token = jwt.sign({ username: username },process.env.ACCESS_TOKEN);
+    res.send({ token });
+    res.cookie('token', token);
+
+});
+
 //---------------------------------------------------------------------------------------------------------------------------------------------------
 
 
