@@ -116,3 +116,27 @@ button{
 .form-container button[type="submit"]:hover {
   background-color: #0056b3;
 }
+
+/* Custom CSS for login/sign-up page */
+
+.card-header {
+  background-color: #f8f9fa; /* Light gray background for the card header */
+}
+
+.card-header .nav-link.active {
+  font-weight: bold;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.btn-primary {
+  background-color: #007bff; /* Primary blue button color */
+  border-color: #007bff; /* Border color same as background color */
+}
+
+.btn-primary:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+  border-color: #0056b3;
+}

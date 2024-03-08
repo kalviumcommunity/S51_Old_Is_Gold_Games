@@ -3,6 +3,7 @@ import {BrowserRouter ,Route,Routes } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home';
 import GameForm from './components/GameForm';
+import AuthPage from './components/AuthPage'
 function App() {
   // const navigate = useNavigate()
   const [data, setData] = useState(null);
@@ -28,11 +29,13 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-        <Route path='/' element={<Home data={data} setData={setData} />} />
+        <Route path='/' element={<AuthPage></AuthPage>}></Route>
+        <Route path='/home' element={<Home data={data} setData={setData} />} />
         <Route path="/form" element={<GameForm  data={data} setData={setData}/>} />
         <Route path="/form/:id" element={<GameForm  data={data} setData={setData}/>} />
         </Routes>
       </BrowserRouter>
+      
     </>
   )
 }
