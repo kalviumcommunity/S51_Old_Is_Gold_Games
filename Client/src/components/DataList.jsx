@@ -2,7 +2,7 @@ import React from 'react'
 // import dummyData from "../../dummyData.json"
 import axios from 'axios'
 import { Link } from 'react-router-dom'
-function DataList({data ,setData}) {
+function DataList({data ,setData,auth}) {
     const handleDelete = async (id) =>{
         try {
             const res = await axios.delete(`http://localhost:3000/api/data/${id}`)
@@ -31,8 +31,8 @@ function DataList({data ,setData}) {
                         <p>Description : {game.Description}</p>
                         <p>Rating : {game.Rating}/10</p>
 
-                        <Link to={`/form/${game._id}`}><button>Update</button></Link>
-                        <button onClick={()=>{handleDelete(game._id)}}>Delete</button>
+                        {auth && <Link to={`/form/${game._id}`}><button>Update</button></Link>}
+                        {auth && <button onClick={()=>{handleDelete(game._id)}}>Delete</button>}
                     </div>
                     </>
                 )

@@ -49,7 +49,7 @@ const GameForm = ({data , setData}) => {
       const res = await axios.post('http://localhost:3000/api/data', validatedData);
       console.log(res.data);
       setData([...data, res.data]);
-      navigate("/");
+      navigate("/home");
     } catch (error) {
       console.error('Error:', error);
       setIsError(true)
@@ -78,7 +78,7 @@ const GameForm = ({data , setData}) => {
       console.error('Error:', error);
       setIsError(true)
     }
-    navigate("/")
+    navigate("/home")
 
   };
 
