@@ -1,462 +1,512 @@
 [
-    {
-      "GameTitle": "Pac-Man",
-      "ReleaseYear": 1980,
-      "Platform": "Arcade",
-      "Genre": "Arcade",
-      "DeveloperPublisher": "Namco",
-      "Description": "Classic arcade game where players control Pac-Man.",
-      "Rating": 9
-    },
-    {
-      "GameTitle": "Tetris",
-      "ReleaseYear": 1984,
-      "Platform": "Multiple",
-      "Genre": "Puzzle",
-      "DeveloperPublisher": "Alexey Pajitnov",
-      "Description": "Tile-matching puzzle game with falling tetrominoes.",
-      "Rating": 8
-    },
-    {
-      "GameTitle": "Super Mario Bros.",
-      "ReleaseYear": 1985,
-      "Platform": "NES",
-      "Genre": "Platformer",
-      "DeveloperPublisher": "Nintendo",
-      "Description": "Iconic platformer featuring Mario and Princess Peach.",
-      "Rating": 9
-    },
-    {
-      "GameTitle": "Pong",
-      "ReleaseYear": 1972,
-      "Platform": "Arcade",
-      "Genre": "Sports",
-      "DeveloperPublisher": "Atari",
-      "Description": "Classic arcade game simulating table tennis.",
-      "Rating": 7
-    },
-    {
-      "GameTitle": "Space Invaders",
-      "ReleaseYear": 1978,
-      "Platform": "Arcade",
-      "Genre": "Shooter",
-      "DeveloperPublisher": "Taito",
-      "Description": "Arcade shooter where players defend Earth from aliens.",
-      "Rating": 8
-    },
-    {
-      "GameTitle": "Asteroids",
-      "ReleaseYear": 1979,
-      "Platform": "Arcade",
-      "Genre": "Shooter",
-      "DeveloperPublisher": "Atari",
-      "Description": "Arcade game where players shoot asteroids and flying saucers.",
-      "Rating": 7
-    },
-    {
-      "GameTitle": "Donkey Kong",
-      "ReleaseYear": 1981,
-      "Platform": "Arcade",
-      "Genre": "Platformer",
-      "DeveloperPublisher": "Nintendo",
-      "Description": "Classic arcade game featuring Mario trying to rescue Pauline from Donkey Kong.",
-      "Rating": 8
-    },
-    {
-      "GameTitle": "Frogger",
-      "ReleaseYear": 1981,
-      "Platform": "Arcade",
-      "Genre": "Action",
-      "DeveloperPublisher": "Konami",
-      "Description": "Arcade game where players guide frogs across busy roads and rivers.",
-      "Rating": 7
-    },
-    {
-      "GameTitle": "Galaga",
-      "ReleaseYear": 1981,
-      "Platform": "Arcade",
-      "Genre": "Shooter",
-      "DeveloperPublisher": "Namco",
-      "Description": "Classic arcade shooter featuring space battles against alien invaders.",
-      "Rating": 8
-    },
-    {
-      "GameTitle": "Defender",
-      "ReleaseYear": 1980,
-      "Platform": "Arcade",
-      "Genre": "Shooter",
-      "DeveloperPublisher": "Williams Electronics",
-      "Description": "Classic arcade game where players defend humans from waves of aliens.",
-      "Rating": 7
-    },
-    {
-      "GameTitle": "Vice City",
-      "ReleaseYear": 2002,
-      "Platform": "PS2, PC",
-      "Genre": "Action-Adventure",
-      "DeveloperPublisher": "Rockstar North",
-      "Description": "Open-world game set in a fictional Miami Vice City.",
-      "Rating": 9
-    },
-    {
-      "GameTitle": "San Andreas",
-      "ReleaseYear": 2004,
-      "Platform": "PS2, PC",
-      "Genre": "Action-Adventure",
-      "DeveloperPublisher": "Rockstar North",
-      "Description": "Open-world game set in a fictional state of San Andreas.",
-      "Rating": 9
-    },
-    {
-      "GameTitle": "Sonic the Hedgehog",
-      "ReleaseYear": 1991,
-      "Platform": "Sega Genesis",
-      "Genre": "Platformer",
-      "DeveloperPublisher": "Sega",
-      "Description": "Classic platformer featuring Sonic the Hedgehog.",
-      "Rating": 8
-    },
-    {
-      "GameTitle": "The Legend of Zelda",
-      "ReleaseYear": 1986,
-      "Platform": "NES",
-      "Genre": "Action-Adventure",
-      "DeveloperPublisher": "Nintendo",
-      "Description": "Iconic action-adventure game with Link in the land of Hyrule.",
-      "Rating": 9
-    },
-    {
-      "GameTitle": "Street Fighter II",
-      "ReleaseYear": 1991,
-      "Platform": "Arcade, SNES",
-      "Genre": "Fighting",
-      "DeveloperPublisher": "Capcom",
-      "Description": "Classic fighting game featuring iconic characters.",
-      "Rating": 9
-    },
-    {
-      "GameTitle": "Mortal Kombat",
-      "ReleaseYear": 1992,
-      "Platform": "Arcade, SNES",
-      "Genre": "Fighting",
-      "DeveloperPublisher": "Midway",
-      "Description": "Fighting game known for its intense combat and brutal finishing moves.",
-      "Rating": 8
-    },
-    {
-      "GameTitle": "Doom",
-      "ReleaseYear": 1993,
-      "Platform": "PC",
-      "Genre": "First-Person Shooter",
-      "DeveloperPublisher": "id Software",
-      "Description": "Pioneering first-person shooter game set on Mars.",
-      "Rating": 9
-    },
-    {
-      "GameTitle": "Final Fantasy VII",
-      "ReleaseYear": 1997,
-      "Platform": "PlayStation",
-      "Genre": "RPG",
-      "DeveloperPublisher": "Square",
-      "Description": "Iconic RPG set in a dystopian world of Midgar.",
-      "Rating": 10
-    },
-    {
-      "GameTitle": "Super Mario 64",
-      "ReleaseYear": 1996,
-      "Platform": "Nintendo 64",
-      "Genre": "Platformer",
-      "DeveloperPublisher": "Nintendo",
-      "Description": "Revolutionary 3D platformer featuring Mario.",
-      "Rating": 9
-    },
-    {
-      "GameTitle": "Pokémon Red & Blue",
-      "ReleaseYear": 1996,
-      "Platform": "Game Boy",
-      "Genre": "RPG",
-      "DeveloperPublisher": "Game Freak",
-      "Description": "Classic RPG where players capture and train Pokémon.",
-      "Rating": 8
-    },
-    {
-      "GameTitle": "GoldenEye 007",
-      "ReleaseYear": 1997,
-      "Platform": "Nintendo 64",
-      "Genre": "First-Person Shooter",
-      "DeveloperPublisher": "Rare",
-      "Description": "Iconic first-person shooter based on James Bond.",
-      "Rating": 9
-    },
-    {
-      "GameTitle": "Half-Life",
-      "ReleaseYear": 1998,
-      "Platform": "PC",
-      "Genre": "First-Person Shooter",
-      "DeveloperPublisher": "Valve Software",
-      "Description": "Revolutionary first-person shooter set in a research facility.",
-      "Rating": 9
-    },
-    {
-      "GameTitle": "Age of Empires",
-      "ReleaseYear": 1997,
-      "Platform": "PC",
-      "Genre": "Real-Time Strategy",
-      "DeveloperPublisher": "Ensemble Studios",
-      "Description": "Classic RTS game where players build civilizations.",
-      "Rating": 8
-    },
-    {
-      "GameTitle": "Diablo II",
-      "ReleaseYear": 2000,
-      "Platform": "PC",
-      "Genre": "Action RPG",
-      "DeveloperPublisher": "Blizzard Entertainment",
-      "Description": "Popular action RPG set in the dark fantasy world.",
-      "Rating": 9
-    },
-    {
-      "GameTitle": "RollerCoaster Tycoon",
-      "ReleaseYear": 1999,
-      "Platform": "PC",
-      "Genre": "Simulation",
-      "DeveloperPublisher": "Chris Sawyer",
-      "Description": "Management simulation game where players build theme parks.",
-      "Rating": 8
-    },
-    {
-      "GameTitle": "StarCraft",
-      "ReleaseYear": 1998,
-      "Platform": "PC",
-      "Genre": "Real-Time Strategy",
-      "DeveloperPublisher": "Blizzard Entertainment",
-      "Description": "Classic RTS game set in a futuristic universe.",
-      "Rating": 9
-    },
-    {
-      "GameTitle": "SimCity 2000",
-      "ReleaseYear": 1993,
-      "Platform": "PC",
-      "Genre": "Simulation",
-      "DeveloperPublisher": "Maxis",
-      "Description": "City-building simulation game and sequel to SimCity.",
-      "Rating": 7
-    },
-    {
-      "GameTitle": "Crash Bandicoot",
-      "ReleaseYear": 1996,
-      "Platform": "PlayStation",
-      "Genre": "Platformer",
-      "DeveloperPublisher": "Naughty Dog",
-      "Description": "Platformer featuring the iconic character Crash Bandicoot.",
-      "Rating": 8
-    },
-    {
-      "GameTitle": "Gran Turismo",
-      "ReleaseYear": 1997,
-      "Platform": "PlayStation",
-      "Genre": "Racing",
-      "DeveloperPublisher": "Polyphony Digital",
-      "Description": "Racing simulation game featuring realistic cars and tracks.",
-      "Rating": 9
-    },
-    {
-      "GameTitle": "Metal Gear Solid",
-      "ReleaseYear": 1998,
-      "Platform": "PlayStation",
-      "Genre": "Stealth Action",
-      "DeveloperPublisher": "Konami",
-      "Description": "Stealth-action game set in a military base.",
-      "Rating": 9
-    },
-    {
-      "GameTitle": "Spyro the Dragon",
-      "ReleaseYear": 1998,
-      "Platform": "PlayStation",
-      "Genre": "Platformer",
-      "DeveloperPublisher": "Insomniac Games",
-      "Description": "Platformer featuring the dragon Spyro.",
-      "Rating": 8
-    },
-    {
-      "GameTitle": "Tony Hawk's Pro Skater",
-      "ReleaseYear": 1999,
-      "Platform": "PlayStation",
-      "Genre": "Sports",
-      "DeveloperPublisher": "Neversoft",
-      "Description": "Skateboarding game featuring pro skater Tony Hawk.",
-      "Rating": 8
-    },
-    {
-      "GameTitle": "Resident Evil",
-      "ReleaseYear": 1996,
-      "Platform": "PlayStation",
-      "Genre": "Survival Horror",
-      "DeveloperPublisher": "Capcom",
-      "Description": "Survival horror game set in a zombie-infested mansion.",
-      "Rating": 9
-    },
-    {
-      "GameTitle": "Silent Hill",
-      "ReleaseYear": 1999,
-      "Platform": "PlayStation",
-      "Genre": "Survival Horror",
-      "DeveloperPublisher": "Konami",
-      "Description": "Psychological horror game set in the town of Silent Hill.",
-      "Rating": 9
-    },
-    {
-      "GameTitle": "Gran Theft Auto III",
-      "ReleaseYear": 2001,
-      "Platform": "PS2, PC",
-      "Genre": "Action-Adventure",
-      "DeveloperPublisher": "Rockstar North",
-      "Description": "Open-world game set in a fictional Liberty City.",
-      "Rating": 9
-    },
-    {
-      "GameTitle": "Super Metroid",
-      "ReleaseYear": 1994,
-      "Platform": "SNES",
-      "Genre": "Action-Adventure",
-      "DeveloperPublisher": "Nintendo",
-      "Description": "Action-adventure game featuring bounty hunter Samus Aran.",
-      "Rating": 9
-    },
-    {
-      "GameTitle": "Castlevania: Symphony of the Night",
-      "ReleaseYear": 1997,
-      "Platform": "PlayStation",
-      "Genre": "Platformer, Action",
-      "DeveloperPublisher": "Konami",
-      "Description": "Action-adventure game set in Dracula's castle.",
-      "Rating": 8
-    },
-    {
-      "GameTitle": "Legend of Zelda: Ocarina of Time",
-      "ReleaseYear": 1998,
-      "Platform": "Nintendo 64",
-      "Genre": "Action-Adventure",
-      "DeveloperPublisher": "Nintendo",
-      "Description": "Adventure game where the player controls Link in the fantasy land of Hyrule.",
-      "Rating": 10
-    },
-    {
-      "GameTitle": "Metroid Prime",
-      "ReleaseYear": 2002,
-      "Platform": "GameCube",
-      "Genre": "Action-Adventure",
-      "DeveloperPublisher": "Retro Studios",
-      "Description": "First-person adventure game featuring bounty hunter Samus Aran.",
-      "Rating": 9
-    },
-    {
-      "GameTitle": "GTA: Vice City Stories",
-      "ReleaseYear": 2006,
-      "Platform": "PSP, PS2",
-      "Genre": "Action-Adventure",
-      "DeveloperPublisher": "Rockstar Leeds",
-      "Description": "Open-world game set in a fictional Vice City.",
-      "Rating": 9
-    },
-    {
-      "GameTitle": "GTA: Liberty City Stories",
-      "ReleaseYear": 2005,
-      "Platform": "PSP, PS2",
-      "Genre": "Action-Adventure",
-      "DeveloperPublisher": "Rockstar Leeds",
-      "Description": "Open-world game set in a fictional Liberty City.",
-      "Rating": 9
-    },
-    {
-      "GameTitle": "Pokemon Gold & Silver",
-      "ReleaseYear": 1999,
-      "Platform": "Game Boy Color",
-      "Genre": "RPG",
-      "DeveloperPublisher": "Game Freak",
-      "Description": "Classic RPG where players explore the Johto region.",
-      "Rating": 9
-    },
-    {
-      "GameTitle": "Star Wars: Knights of the Old Republic",
-      "ReleaseYear": 2003,
-      "Platform": "Xbox, PC",
-      "Genre": "RPG",
-      "DeveloperPublisher": "BioWare",
-      "Description": "RPG set in the Star Wars universe with customizable characters and story choices.",
-      "Rating": 9
-    },
-    {
-      "GameTitle": "Fire Emblem",
-      "ReleaseYear": 1990,
-      "Platform": "NES",
-      "Genre": "Strategy RPG",
-      "DeveloperPublisher": "Intelligent Systems",
-      "Description": "Tactical RPG where players command a group of units in battle.",
-      "Rating": 8
-    },
-    {
-      "GameTitle": "Chrono Trigger",
-      "ReleaseYear": 1995,
-      "Platform": "SNES",
-      "Genre": "RPG",
-      "DeveloperPublisher": "Square",
-      "Description": "Iconic RPG featuring time travel and multiple endings.",
-      "Rating": 10
-    },
-    {
-      "GameTitle": "Mega Man X",
-      "ReleaseYear": 1993,
-      "Platform": "SNES",
-      "Genre": "Action",
-      "DeveloperPublisher": "Capcom",
-      "Description": "Action-platformer featuring the iconic character Mega Man X.",
-      "Rating": 8
-    },
-    {
-      "GameTitle": "Metal Slug",
-      "ReleaseYear": 1996,
-      "Platform": "Arcade, Neo Geo",
-      "Genre": "Run and Gun",
-      "DeveloperPublisher": "SNK",
-      "Description": "Run and gun arcade game featuring stylish visuals and intense action.",
-      "Rating": 9
-    },
-    {
-      "GameTitle": "Spider-Man",
-      "ReleaseYear": 2000,
-      "Platform": "PS1, N64, PC",
-      "Genre": "Action-Adventure",
-      "DeveloperPublisher": "Neversoft",
-      "Description": "Action-adventure game featuring the iconic superhero Spider-Man.",
-      "Rating": 9
-    },
-    {
-      "GameTitle": "Need for Speed: Underground",
-      "ReleaseYear": 2003,
-      "Platform": "Multiple",
-      "Genre": "Racing",
-      "DeveloperPublisher": "EA Black Box",
-      "Description": "Racing game focusing on underground street racing culture.",
-      "Rating": 8
-    },
-    {
-      "GameTitle": "God of War",
-      "ReleaseYear": 2005,
-      "Platform": "PS2",
-      "Genre": "Action-Adventure",
-      "DeveloperPublisher": "Santa Monica Studio",
-      "Description": "Action-adventure game based on Greek mythology.",
-      "Rating": 10
-    },
-    {
-      "GameTitle": "Minecraft",
-      "ReleaseYear": 2009,
-      "Platform": "Multiple",
-      "Genre": "Sandbox",
-      "DeveloperPublisher": "Mojang",
-      "Description": "Sandbox game allowing players to build and explore worlds.",
-      "Rating": 9
-    }
-  ]
-  
+  {
+    "GameTitle": "Pac-Man",
+    "ReleaseYear": 1980,
+    "Platform": "Arcade",
+    "Genre": "Arcade",
+    "DeveloperPublisher": "Namco",
+    "Description": "Classic arcade game where players control Pac-Man.",
+    "Rating": 9,
+    "uploaded_by": "JohnDoe"
+  },
+  {
+    "GameTitle": "Tetris",
+    "ReleaseYear": 1984,
+    "Platform": "Multiple",
+    "Genre": "Puzzle",
+    "DeveloperPublisher": "Alexey Pajitnov",
+    "Description": "Tile-matching puzzle game with falling tetrominoes.",
+    "Rating": 8,
+    "uploaded_by": "JaneSmith"
+  },
+  {
+    "GameTitle": "Super Mario Bros.",
+    "ReleaseYear": 1985,
+    "Platform": "NES",
+    "Genre": "Platformer",
+    "DeveloperPublisher": "Nintendo",
+    "Description": "Iconic platformer featuring Mario and Princess Peach.",
+    "Rating": 9,
+    "uploaded_by": "ChrisJohnson"
+  },
+  {
+    "GameTitle": "Pong",
+    "ReleaseYear": 1972,
+    "Platform": "Arcade",
+    "Genre": "Sports",
+    "DeveloperPublisher": "Atari",
+    "Description": "Classic arcade game simulating table tennis.",
+    "Rating": 7,
+    "uploaded_by": "EmilyDavis"
+  },
+  {
+    "GameTitle": "Space Invaders",
+    "ReleaseYear": 1978,
+    "Platform": "Arcade",
+    "Genre": "Shooter",
+    "DeveloperPublisher": "Taito",
+    "Description": "Arcade shooter where players defend Earth from aliens.",
+    "Rating": 8,
+    "uploaded_by": "MichaelBrown"
+  },
+  {
+    "GameTitle": "Asteroids",
+    "ReleaseYear": 1979,
+    "Platform": "Arcade",
+    "Genre": "Shooter",
+    "DeveloperPublisher": "Atari",
+    "Description": "Arcade game where players shoot asteroids and flying saucers.",
+    "Rating": 7,
+    "uploaded_by": "SamanthaLee"
+  },
+  {
+    "GameTitle": "Donkey Kong",
+    "ReleaseYear": 1981,
+    "Platform": "Arcade",
+    "Genre": "Platformer",
+    "DeveloperPublisher": "Nintendo",
+    "Description": "Classic arcade game featuring Mario trying to rescue Pauline from Donkey Kong.",
+    "Rating": 8,
+    "uploaded_by": "DavidWilliams"
+  },
+  {
+    "GameTitle": "Frogger",
+    "ReleaseYear": 1981,
+    "Platform": "Arcade",
+    "Genre": "Action",
+    "DeveloperPublisher": "Konami",
+    "Description": "Arcade game where players guide frogs across busy roads and rivers.",
+    "Rating": 7,
+    "uploaded_by": "RachelMartin"
+  },
+  {
+    "GameTitle": "Galaga",
+    "ReleaseYear": 1981,
+    "Platform": "Arcade",
+    "Genre": "Shooter",
+    "DeveloperPublisher": "Namco",
+    "Description": "Classic arcade shooter featuring space battles against alien invaders.",
+    "Rating": 8,
+    "uploaded_by": "AndrewNguyen"
+  },
+  {
+    "GameTitle": "Defender",
+    "ReleaseYear": 1980,
+    "Platform": "Arcade",
+    "Genre": "Shooter",
+    "DeveloperPublisher": "Williams Electronics",
+    "Description": "Classic arcade game where players defend humans from waves of aliens.",
+    "Rating": 7,
+    "uploaded_by": "JessicaMiller"
+  },
+  {
+    "GameTitle": "Vice City",
+    "ReleaseYear": 2002,
+    "Platform": "PS2, PC",
+    "Genre": "Action-Adventure",
+    "DeveloperPublisher": "Rockstar North",
+    "Description": "Open-world game set in a fictional Miami Vice City.",
+    "Rating": 9,
+    "uploaded_by": "SamanthaLee"
+  },
+  {
+    "GameTitle": "San Andreas",
+    "ReleaseYear": 2004,
+    "Platform": "PS2, PC",
+    "Genre": "Action-Adventure",
+    "DeveloperPublisher": "Rockstar North",
+    "Description": "Open-world game set in a fictional state of San Andreas.",
+    "Rating": 9,
+    "uploaded_by": "MichaelBrown"
+  },
+  {
+    "GameTitle": "Sonic the Hedgehog",
+    "ReleaseYear": 1991,
+    "Platform": "Sega Genesis",
+    "Genre": "Platformer",
+    "DeveloperPublisher": "Sega",
+    "Description": "Classic platformer featuring Sonic the Hedgehog.",
+    "Rating": 8,
+    "uploaded_by": "DavidWilliams"
+  },
+  {
+    "GameTitle": "The Legend of Zelda",
+    "ReleaseYear": 1986,
+    "Platform": "NES",
+    "Genre": "Action-Adventure",
+    "DeveloperPublisher": "Nintendo",
+    "Description": "Iconic action-adventure game with Link in the land of Hyrule.",
+    "Rating": 9,
+    "uploaded_by": "EmilyDavis"
+  },
+  {
+    "GameTitle": "Street Fighter II",
+    "ReleaseYear": 1991,
+    "Platform": "Arcade, SNES",
+    "Genre": "Fighting",
+    "DeveloperPublisher": "Capcom",
+    "Description": "Classic fighting game featuring iconic characters.",
+    "Rating": 9,
+    "uploaded_by": "RachelMartin"
+  },
+  {
+    "GameTitle": "Mortal Kombat",
+    "ReleaseYear": 1992,
+    "Platform": "Arcade, SNES",
+    "Genre": "Fighting",
+    "DeveloperPublisher": "Midway",
+    "Description": "Fighting game known for its intense combat and brutal finishing moves.",
+    "Rating": 8,
+    "uploaded_by": "AndrewNguyen"
+  },
+  {
+    "GameTitle": "Doom",
+    "ReleaseYear": 1993,
+    "Platform": "PC",
+    "Genre": "First-Person Shooter",
+    "DeveloperPublisher": "id Software",
+    "Description": "Pioneering first-person shooter game set on Mars.",
+    "Rating": 9,
+    "uploaded_by": "JaneSmith"
+  },
+  {
+    "GameTitle": "Final Fantasy VII",
+    "ReleaseYear": 1997,
+    "Platform": "PlayStation",
+    "Genre": "RPG",
+    "DeveloperPublisher": "Square",
+    "Description": "Iconic RPG set in a dystopian world of Midgar.",
+    "Rating": 10,
+    "uploaded_by": "JohnDoe"
+  },
+  {
+    "GameTitle": "Super Mario 64",
+    "ReleaseYear": 1996,
+    "Platform": "Nintendo 64",
+    "Genre": "Platformer",
+    "DeveloperPublisher": "Nintendo",
+    "Description": "Revolutionary 3D platformer featuring Mario.",
+    "Rating": 9,
+    "uploaded_by": "JessicaMiller"
+  },
+  {
+    "GameTitle": "Pokémon Red & Blue",
+    "ReleaseYear": 1996,
+    "Platform": "Game Boy",
+    "Genre": "RPG",
+    "DeveloperPublisher": "Game Freak",
+    "Description": "Classic RPG where players capture and train Pokémon.",
+    "Rating": 8,
+    "uploaded_by": "MichaelBrown"
+  },
+  {
+    "GameTitle": "GoldenEye 007",
+    "ReleaseYear": 1997,
+    "Platform": "Nintendo 64",
+    "Genre": "First-Person Shooter",
+    "DeveloperPublisher": "Rare",
+    "Description": "Iconic first-person shooter based on James Bond.",
+    "Rating": 9,
+    "uploaded_by": "SamanthaLee"
+  },
+  {
+    "GameTitle": "Half-Life",
+    "ReleaseYear": 1998,
+    "Platform": "PC",
+    "Genre": "First-Person Shooter",
+    "DeveloperPublisher": "Valve Software",
+    "Description": "Revolutionary first-person shooter set in a research facility.",
+    "Rating": 9,
+    "uploaded_by": "ChrisJohnson"
+  },
+  {
+    "GameTitle": "Age of Empires",
+    "ReleaseYear": 1997,
+    "Platform": "PC",
+    "Genre": "Real-Time Strategy",
+    "DeveloperPublisher": "Ensemble Studios",
+    "Description": "Classic RTS game where players build civilizations.",
+    "Rating": 8,
+    "uploaded_by": "EmilyDavis"
+  },
+  {
+    "GameTitle": "Diablo II",
+    "ReleaseYear": 2000,
+    "Platform": "PC",
+    "Genre": "Action RPG",
+    "DeveloperPublisher": "Blizzard Entertainment",
+    "Description": "Popular action RPG set in the dark fantasy world.",
+    "Rating": 9,
+    "uploaded_by": "JohnDoe"
+  },
+  {
+    "GameTitle": "RollerCoaster Tycoon",
+    "ReleaseYear": 1999,
+    "Platform": "PC",
+    "Genre": "Simulation",
+    "DeveloperPublisher": "Chris Sawyer",
+    "Description": "Management simulation game where players build theme parks.",
+    "Rating": 8,
+    "uploaded_by": "RachelMartin"
+  },
+  {
+    "GameTitle": "StarCraft",
+    "ReleaseYear": 1998,
+    "Platform": "PC",
+    "Genre": "Real-Time Strategy",
+    "DeveloperPublisher": "Blizzard Entertainment",
+    "Description": "Classic RTS game set in a futuristic universe.",
+    "Rating": 9,
+    "uploaded_by": "JaneSmith"
+  },
+  {
+    "GameTitle": "SimCity 2000",
+    "ReleaseYear": 1993,
+    "Platform": "PC",
+    "Genre": "Simulation",
+    "DeveloperPublisher": "Maxis",
+    "Description": "City-building simulation game and sequel to SimCity.",
+    "Rating": 7,
+    "uploaded_by": "DavidWilliams"
+  },
+  {
+    "GameTitle": "Crash Bandicoot",
+    "ReleaseYear": 1996,
+    "Platform": "PlayStation",
+    "Genre": "Platformer",
+    "DeveloperPublisher": "Naughty Dog",
+    "Description": "Platformer featuring the iconic character Crash Bandicoot.",
+    "Rating": 8,
+    "uploaded_by": "EmilyDavis"
+  },
+  {
+    "GameTitle": "Gran Turismo",
+    "ReleaseYear": 1997,
+    "Platform": "PlayStation",
+    "Genre": "Racing",
+    "DeveloperPublisher": "Polyphony Digital",
+    "Description": "Racing simulation game featuring realistic cars and tracks.",
+    "Rating": 9,
+    "uploaded_by": "MichaelBrown"
+  },
+  {
+    "GameTitle": "Metal Gear Solid",
+    "ReleaseYear": 1998,
+    "Platform": "PlayStation",
+    "Genre": "Stealth Action",
+    "DeveloperPublisher": "Konami",
+    "Description": "Stealth-action game set in a military base.",
+    "Rating": 9,
+    "uploaded_by": "JessicaMiller"
+  },
+  {
+    "GameTitle": "Spyro the Dragon",
+    "ReleaseYear": 1998,
+    "Platform": "PlayStation",
+    "Genre": "Platformer",
+    "DeveloperPublisher": "Insomniac Games",
+    "Description": "Platformer featuring the dragon Spyro.",
+    "Rating": 8,
+    "uploaded_by": "RachelMartin"
+  },
+  {
+    "GameTitle": "Tony Hawk's Pro Skater",
+    "ReleaseYear": 1999,
+    "Platform": "PlayStation",
+    "Genre": "Sports",
+    "DeveloperPublisher": "Neversoft",
+    "Description": "Skateboarding game featuring pro skater Tony Hawk.",
+    "Rating": 8,
+    "uploaded_by": "JohnDoe"
+  },
+  {
+    "GameTitle": "Resident Evil",
+    "ReleaseYear": 1996,
+    "Platform": "PlayStation",
+    "Genre": "Survival Horror",
+    "DeveloperPublisher": "Capcom",
+    "Description": "Survival horror game set in a zombie-infested mansion.",
+    "Rating": 9,
+    "uploaded_by": "JaneSmith"
+  },
+  {
+    "GameTitle": "Silent Hill",
+    "ReleaseYear": 1999,
+    "Platform": "PlayStation",
+    "Genre": "Survival Horror",
+    "DeveloperPublisher": "Konami",
+    "Description": "Psychological horror game set in the town of Silent Hill.",
+    "Rating": 9,
+    "uploaded_by": "EmilyDavis"
+  },
+  {
+    "GameTitle": "Gran Theft Auto III",
+    "ReleaseYear": 2001,
+    "Platform": "PS2, PC",
+    "Genre": "Action-Adventure",
+    "DeveloperPublisher": "Rockstar North",
+    "Description": "Open-world game set in a fictional Liberty City.",
+    "Rating": 9,
+    "uploaded_by": "MichaelBrown"
+  },
+  {
+    "GameTitle": "Super Metroid",
+    "ReleaseYear": 1994,
+    "Platform": "SNES",
+    "Genre": "Action-Adventure",
+    "DeveloperPublisher": "Nintendo",
+    "Description": "Action-adventure game featuring bounty hunter Samus Aran.",
+    "Rating": 9,
+    "uploaded_by": "JessicaMiller"
+  },
+  {
+    "GameTitle": "Castlevania: Symphony of the Night",
+    "ReleaseYear": 1997,
+    "Platform": "PlayStation",
+    "Genre": "Platformer, Action",
+    "DeveloperPublisher": "Konami",
+    "Description": "Action-adventure game set in Dracula's castle.",
+    "Rating": 8,
+    "uploaded_by": "AndrewNguyen"
+  },
+  {
+    "GameTitle": "Legend of Zelda: Ocarina of Time",
+    "ReleaseYear": 1998,
+    "Platform": "Nintendo 64",
+    "Genre": "Action-Adventure",
+    "DeveloperPublisher": "Nintendo",
+    "Description": "Adventure game where the player controls Link in the fantasy land of Hyrule.",
+    "Rating": 10,
+    "uploaded_by": "SamanthaLee"
+  },
+  {
+    "GameTitle": "Metroid Prime",
+    "ReleaseYear": 2002,
+    "Platform": "GameCube",
+    "Genre": "Action-Adventure",
+    "DeveloperPublisher": "Retro Studios",
+    "Description": "First-person adventure game featuring bounty hunter Samus Aran.",
+    "Rating": 9,
+    "uploaded_by": "JohnDoe"
+  },
+  {
+    "GameTitle": "GTA: Vice City Stories",
+    "ReleaseYear": 2006,
+    "Platform": "PSP, PS2",
+    "Genre": "Action-Adventure",
+    "DeveloperPublisher": "Rockstar Leeds",
+    "Description": "Open-world game set in a fictional Vice City.",
+    "Rating": 9,
+    "uploaded_by": "EmilyDavis"
+  },
+  {
+    "GameTitle": "GTA: Liberty City Stories",
+    "ReleaseYear": 2005,
+    "Platform": "PSP, PS2",
+    "Genre": "Action-Adventure",
+    "DeveloperPublisher": "Rockstar Leeds",
+    "Description": "Open-world game set in a fictional Liberty City.",
+    "Rating": 9,
+    "uploaded_by": "RachelMartin"
+  },
+  {
+    "GameTitle": "Pokemon Gold & Silver",
+    "ReleaseYear": 1999,
+    "Platform": "Game Boy Color",
+    "Genre": "RPG",
+    "DeveloperPublisher": "Game Freak",
+    "Description": "Classic RPG where players explore the Johto region.",
+    "Rating": 9,
+    "uploaded_by": "AndrewNguyen"
+  },
+  {
+    "GameTitle": "Star Wars: Knights of the Old Republic",
+    "ReleaseYear": 2003,
+    "Platform": "Xbox, PC",
+    "Genre": "RPG",
+    "DeveloperPublisher": "BioWare",
+    "Description": "RPG set in the Star Wars universe with customizable characters and story choices.",
+    "Rating": 9,
+    "uploaded_by": "MichaelBrown"
+  },
+  {
+    "GameTitle": "Fire Emblem",
+    "ReleaseYear": 1990,
+    "Platform": "NES",
+    "Genre": "Strategy RPG",
+    "DeveloperPublisher": "Intelligent Systems",
+    "Description": "Tactical RPG where players command a group of units in battle.",
+    "Rating": 8,
+    "uploaded_by": "JessicaMiller"
+  },
+  {
+    "GameTitle": "Chrono Trigger",
+    "ReleaseYear": 1995,
+    "Platform": "SNES",
+    "Genre": "RPG",
+    "DeveloperPublisher": "Square",
+    "Description": "Iconic RPG featuring time travel and multiple endings.",
+    "Rating": 10,
+    "uploaded_by": "EmilyDavis"
+  },
+  {
+    "GameTitle": "Mega Man X",
+    "ReleaseYear": 1993,
+    "Platform": "SNES",
+    "Genre": "Action",
+    "DeveloperPublisher": "Capcom",
+    "Description": "Action-platformer featuring the iconic character Mega Man X.",
+    "Rating": 8,
+    "uploaded_by": "RachelMartin"
+  },
+  {
+    "GameTitle": "Metal Slug",
+    "ReleaseYear": 1996,
+    "Platform": "Arcade, Neo Geo",
+    "Genre": "Run and Gun",
+    "DeveloperPublisher": "SNK",
+    "Description": "Run and gun arcade game featuring stylish visuals and intense action.",
+    "Rating": 9,
+    "uploaded_by": "JohnDoe"
+  },
+  {
+    "GameTitle": "Spider-Man",
+    "ReleaseYear": 2000,
+    "Platform": "PS1, N64, PC",
+    "Genre": "Action-Adventure",
+    "DeveloperPublisher": "Neversoft",
+    "Description": "Action-adventure game featuring the iconic superhero Spider-Man.",
+    "Rating": 9,
+    "uploaded_by": "JaneSmith"
+  },
+  {
+    "GameTitle": "Need for Speed: Underground",
+    "ReleaseYear": 2003,
+    "Platform": "Multiple",
+    "Genre": "Racing",
+    "DeveloperPublisher": "EA Black Box",
+    "Description": "Racing game focusing on underground street racing culture.",
+    "Rating": 8,
+    "uploaded_by": "MichaelBrown"
+  },
+  {
+    "GameTitle": "God of War",
+    "ReleaseYear": 2005,
+    "Platform": "PS2",
+    "Genre": "Action-Adventure",
+    "DeveloperPublisher": "Santa Monica Studio",
+    "Description": "Action-adventure game based on Greek mythology.",
+    "Rating": 10,
+    "uploaded_by": "JessicaMiller"
+  },
+  {
+    "GameTitle": "Minecraft",
+    "ReleaseYear": 2009,
+    "Platform": "Multiple",
+    "Genre": "Sandbox",
+    "DeveloperPublisher": "Mojang",
+    "Description": "Sandbox game allowing players to build and explore worlds.",
+    "Rating": 9,
+    "uploaded_by": "SamanthaLee"
+  }
+]

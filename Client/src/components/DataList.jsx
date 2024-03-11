@@ -22,7 +22,7 @@ function DataList({data ,setData,auth}) {
             data.map((game, index) =>{
                 return (
                     <>
-                    <div className='game' key={game._id}>
+                    <div className='game' key={index}>
                         <h3>{game.GameTitle}</h3>
                         <p>Year : {game.ReleaseYear}</p>
                         <p>Platform : {game.Platform}</p>

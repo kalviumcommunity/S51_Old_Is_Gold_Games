@@ -103,7 +103,6 @@ app.get("/", (req, res) => {
 
 app.post('/signup', async (req, res) => {
     const { username, password } = req.body;
-    console.log(username,password)
     const users = getUsers();
     // Check if username already exists
     if ( users && users.find(user => user.username === username)) {
@@ -164,7 +163,7 @@ app.post('/signup', async (req, res) => {
   // Middleware function to verify JWT token
   function verifyToken(req, res, next) {
     const token = req.body.token
-    console.log(token)
+   
     if (!token) {
       next()
       return

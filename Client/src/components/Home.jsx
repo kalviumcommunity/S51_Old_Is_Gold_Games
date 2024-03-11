@@ -2,10 +2,13 @@ import React, { useEffect, useState } from 'react'
 import DataList from './DataList'
 import { useNavigate } from 'react-router-dom'
 import axios from "axios"
+// import dummyData from "../../dummyData.json"
 
 function Home({ data, setData }) {
   const [visible, setVisible] = useState(false)
   const [auth, setAuth] = useState(false)
+  const [renderData ,setRenderData] = useState(data) 
+  const [users , setUsers] = useState([])
   const navigate = useNavigate()
 
   const toDisplay = () => {
@@ -22,6 +25,20 @@ function Home({ data, setData }) {
     return null;
   }
 
+  const handleFilter = (e) =>{
+    const input = e.target.value
+    if (input == "All"){
+      setRenderData(data)
+    }else{
+      setRenderData(
+        data.filter((game) =>{
+          return game.uploaded_by == input
+        })
+      )
+    }
+    
+  }
+
   useEffect(() => {
     const token = getCookie("token")
     axios.post("http://localhost:3000/protected", { token: token })
@@ -31,8 +48,10 @@ function Home({ data, setData }) {
       .catch((err) => {
         console.error(err)
       })
-  }, [])
 
+      setUsers([...new Set(data.map(game => game.uploaded_by))])
+  }, [])
+ 
   return (
     <>
       <header><h1>Welcome to RetroGaming</h1></header>
@@ -54,10 +73,18 @@ function Home({ data, setData }) {
 
         {auth && <button onClick={() => { navigate("/form") }}>Add Games</button>}
         <button onClick={() => { toDisplay() }}>{visible ? "Hide" : "Display"}</button>
+        <select onChange={handleFilter} name="" id="">
+          <option value="All">All</option>
+            {users.map((name,index)=>{
+              return (
+                <option key={index} value={name}>{name}</option>
+              )
+            })}
+        </select>
       </div>
 
       <div id='game_list'>
-        {visible && <DataList data={data} setData={setData} auth={auth} />}
+        {visible && <DataList data={renderData} setData={setData} auth={auth} />}
       </div>
       <footer>
         <p>&copy; 2024 RetroGaming Haven. All rights reserved.</p>
