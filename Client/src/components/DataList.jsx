@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { Link } from 'react-router-dom';
 
@@ -14,7 +14,9 @@ function DataList({ data, setData, auth }) {
             console.error('Error:', error);
         }
     };
-
+    useEffect(()=>{
+        setRender(data)
+    },[data])
     return (
         <>
             {render.map((game, index) => (
