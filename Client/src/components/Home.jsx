@@ -2,12 +2,13 @@ import React, { useEffect, useState } from 'react'
 import DataList from './DataList'
 import { useNavigate } from 'react-router-dom'
 import axios from "axios"
-import dummyData from "../../dummyData.json"
+// import dummyData from "../../dummyData.json"
 
 function Home({ data, setData }) {
   const [visible, setVisible] = useState(false)
   const [auth, setAuth] = useState(false)
-  const [renderData ,setRenderData] = useState(dummyData) 
+  const [renderData ,setRenderData] = useState(data) 
+  const [users , setUsers] = useState([])
   const navigate = useNavigate()
 
   const toDisplay = () => {
@@ -27,10 +28,10 @@ function Home({ data, setData }) {
   const handleFilter = (e) =>{
     const input = e.target.value
     if (input == "All"){
-      setRenderData(dummyData)
+      setRenderData(data)
     }else{
       setRenderData(
-        dummyData.filter((game) =>{
+        data.filter((game) =>{
           return game.uploaded_by == input
         })
       )
@@ -47,8 +48,10 @@ function Home({ data, setData }) {
       .catch((err) => {
         console.error(err)
       })
+
+      setUsers([...new Set(data.map(game => game.uploaded_by))])
   }, [])
-  const uniqueUsers = [...new Set(dummyData.map(game => game.uploaded_by))]
+ 
   return (
     <>
       <header><h1>Welcome to RetroGaming</h1></header>
@@ -72,9 +75,9 @@ function Home({ data, setData }) {
         <button onClick={() => { toDisplay() }}>{visible ? "Hide" : "Display"}</button>
         <select onChange={handleFilter} name="" id="">
           <option value="All">All</option>
-            {uniqueUsers.map((name)=>{
+            {users.map((name,index)=>{
               return (
-                <option value={name}>{name}</option>
+                <option key={index} value={name}>{name}</option>
               )
             })}
         </select>
