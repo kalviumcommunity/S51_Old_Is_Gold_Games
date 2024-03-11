@@ -41,7 +41,7 @@ function Home({ data, setData }) {
 
   useEffect(() => {
     const token = getCookie("token")
-    axios.post("http://localhost:3000/protected", { token: token })
+    axios.post("https://retrogames2024-uqzk.onrender.com/protected", { token: token })
       .then((res) => {
         setAuth(res.data.authenticated)
       })

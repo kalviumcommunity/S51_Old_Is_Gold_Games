@@ -9,7 +9,8 @@ const gameSchema = Joi.object({
   DeveloperPublisher: Joi.string().required(),
   Description: Joi.string().required(),
   Rating: Joi.number().min(1).max(10).required(),
-  __v : Joi.number()
+  __v : Joi.number(),
+  uploaded_by : Joi.string()
 });
 
 
