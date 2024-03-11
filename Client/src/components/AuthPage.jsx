@@ -12,7 +12,7 @@ function LoginSignUpPage() {
   const handleLoginSubmit = (e) => {
     e.preventDefault();
   
-    axios.post('http://localhost:3000/login', { username, password })
+    axios.post('https://retrogames2024-uqzk.onrender.com/login', { username, password })
       .then(response => {
         console.log('Login successful:', response.data);
         document.cookie = `token=${response.data.token}; path=/`
@@ -28,7 +28,7 @@ function LoginSignUpPage() {
 
   const handleSignupSubmit = (e) => {
     e.preventDefault();
-    axios.post('http://localhost:3000/signup', { username, password })
+    axios.post('https://retrogames2024-uqzk.onrender.com/signup', { username, password })
       .then(response => {
         console.log('signup successful:', response.data);
         document.cookie = `token=${response.data.token}; path=/`

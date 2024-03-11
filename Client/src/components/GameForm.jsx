@@ -46,7 +46,7 @@ const GameForm = ({data , setData}) => {
       // Validate form data
       const validatedData = validateGame(formData);
 
-      const res = await axios.post('http://localhost:3000/api/data', validatedData);
+      const res = await axios.post('https://retrogames2024-uqzk.onrender.com/api/data', validatedData);
       console.log(res.data);
       setData([...data, res.data]);
       navigate("/home");
@@ -63,7 +63,7 @@ const GameForm = ({data , setData}) => {
     try {
       const validatedData = validateGame(formData);
 
-      const res = await axios.put(`http://localhost:3000/api/data/${id}`, validatedData);
+      const res = await axios.put(`https://retrogames2024-uqzk.onrender.com/api/data/${id}`, validatedData);
       console.log(res.data);
       setData(
         data.map(obj => {

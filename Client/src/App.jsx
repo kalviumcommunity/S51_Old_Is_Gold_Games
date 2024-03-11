@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:3000/api/data');
+        const response = await fetch('https://retrogames2024-uqzk.onrender.com/api/data');
         if (!response.ok) {
           throw new Error('Failed to fetch data');
         }
